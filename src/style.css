@@ -1,6 +1,14 @@
+@import "./Components/atoms/button/button.css";
+@import "./Components/atoms/hamburger/style.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary: #fd763c;
+  --primary-dark: #ec6126;
+  --primary-light: #ff9d6caf;
+}
 
 .not-container {
   color: red;
